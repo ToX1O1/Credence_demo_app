@@ -25,12 +25,6 @@ def frm_call():
 					   		""",as_dict=True)
 		
 		
-		# a=[]
-		# for i in data:
-		# 	for key,value in i.items(): 
-		# 		a.append(value)
-		# print(a) #list of dic
-		print(data)
 		return data
 		
 
