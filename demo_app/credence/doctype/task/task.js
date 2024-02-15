@@ -5,7 +5,7 @@ frappe.ui.form.on("Task", {
  	refresh(frm) {
         frm.add_custom_button('process_Data',() =>{
 
-            window.location.href = 'http://development.localhost:8000/webpage_credence';
+            // window.location.href = 'http://development.localhost:8000/webpage_credence';
             frappe.call(
                 {
                 // doc:frm.doc,
