@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-10 23:30:12.377381",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "trade_info_section",
+  "mutual_fund",
+  "trade_date",
+  "quantity",
+  "price",
+  "amount",
+  "trade_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "trade_info_section",
+   "fieldtype": "Section Break",
+   "label": "Trade_info"
+  },
+  {
+   "fieldname": "mutual_fund",
+   "fieldtype": "Data",
+   "label": "Mutual_fund"
+  },
+  {
+   "fieldname": "trade_date",
+   "fieldtype": "Date",
+   "label": "Trade_date"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Float",
+   "label": "Price"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "trade_type",
+   "fieldtype": "Select",
+   "label": "Trade_type",
+   "options": "BUY\nSELL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-11 10:57:34.788763",
+ "modified_by": "Administrator",
+ "module": "Credence",
+ "name": "Task",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

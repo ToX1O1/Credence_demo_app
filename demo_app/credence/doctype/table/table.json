@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-11 10:33:51.042242",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "mutual_fund_section",
+  "data_tqur",
+  "section_break_nfoe",
+  "currency_wffp"
+ ],
+ "fields": [
+  {
+   "fieldname": "data_tqur",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_nfoe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "currency_wffp",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "mutual_fund_section",
+   "fieldtype": "Section Break",
+   "label": "Mutual_Fund"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-11 10:42:53.497995",
+ "modified_by": "Administrator",
+ "module": "Credence",
+ "name": "Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
